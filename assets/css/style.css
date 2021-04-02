@@ -7,6 +7,11 @@ body {
     background-color: lightblue;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
+
 header {
     text-align: center;
     background-color: navy;
@@ -54,4 +59,23 @@ button:hover {
 
 .city-button {
     background-color: gray;
+}
+/* End search element style */
+
+/* Style weather display */
+
+.weather {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.weather-main {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }

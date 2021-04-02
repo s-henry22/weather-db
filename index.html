@@ -11,21 +11,36 @@
     <header class="hero">
         <h1>Weather Dashboard</h1>
     </header>
+    <main>
+        <div class="search">
+            <h2>Search for a City:</h2>
+            <input type="text" id="search-bar" placeholder="Toronto">
+            <button id="search-button">Search</button>
+            <!--City Buttons-->
+            <button class="city-button">New York</button>
+            <button class="city-button">Miami</button>
+            <button class="city-button">Chicago</button>
+            <button class="city-button">Dallas</button>
+            <button class="city-button">Los Angeles</button>
+            <button class="city-button">Las Vegas</button>
+            <button class="city-button">Seattle</button>
+            <button class="city-button">Atlanta</button>
+        </div>
 
-    <div class="search">
-        <h2>Search for a City:</h2>
-        <input type="text" id="search-bar" placeholder="Toronto">
-        <button id="search-button">Search</button>
-        <!--City Buttons-->
-        <button class="city-button">New York</button>
-        <button class="city-button">Miami</button>
-        <button class="city-button">Chicago</button>
-        <button class="city-button">Dallas</button>
-        <button class="city-button">Los Angeles</button>
-        <button class="city-button">Las Vegas</button>
-        <button class="city-button">Seattle</button>
-        <button class="city-button">Atlanta</button>
-    </div>
+        <!--Weather Data-->
+        <div class="weather">
+            <div class="weather-main">
+                <h2>City & Current Date</h2>
+                <h4>Temperature: F</h4>
+                <h4>Wind:</h4>
+                <h4>Humidity:</h4>
+                <h4>UV Index:</h4>
+            </div>
+            <div class="weather-future">
+
+            </div>
+        </div>
+    </main>
 
     <script src="./assets/js/script.js"></script>
 </body>
