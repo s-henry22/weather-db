@@ -79,3 +79,25 @@ button:hover {
     padding: 10px;
     border: 1px solid black;
 }
+
+.weather-future {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.weather-days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weather-card {
+    border: 1px solid navy;
+    padding-right: 80px;
+    align-self: auto;
+    background-color: blue;
+    color: white;
+}
